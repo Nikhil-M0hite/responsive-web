@@ -155,3 +155,17 @@ input#email{
     height:10vh;
 }
 }
+@media (min-width:900px){
+    .section-3{
+        height: 100vh;
+    }
+    .box{
+        
+        display: flex;
+        justify-content:space-around;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(245, 240, 240);
+      
+    }
+}
