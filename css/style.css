@@ -157,12 +157,12 @@ input#email{
 }
 @media (min-width:900px){
     .section-3{
-        height: 100vh;
+        height: 50vh;
     }
     .box{
         
         display: flex;
-        justify-content:space-around;
+        justify-content:center;
         text-align: center;
         align-items: center;
         background-color: rgb(245, 240, 240);
