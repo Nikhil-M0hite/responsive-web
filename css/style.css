@@ -135,7 +135,7 @@ input#email{
     flex-direction: column;
  }
  .section-3{
-     height: 132vh;
+     height: 95vh;
  }
  .box{
      flex-direction: column;
@@ -155,18 +155,5 @@ input#email{
     height:10vh;
 }
 }
-@media (min-width:900px){
-    .section-3{
-        height: 30vh;
-        align-items: center;
-    }
-    .box{
-        
-        display: flex;
-        justify-content:center;
-        text-align: center;
-        align-items: center;
-        background-color: rgb(245, 240, 240);
-      
-    }
+
 }
