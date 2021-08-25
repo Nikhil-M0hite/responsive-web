@@ -122,7 +122,7 @@ input#email{
   height: 15vh;
   border-top: 3px solid red;
 }
-@media (max-width:900px)
+@media (max-width:500px)
 {
   .navbar{
       width: 100%;
