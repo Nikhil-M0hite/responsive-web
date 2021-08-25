@@ -157,7 +157,8 @@ input#email{
 }
 @media (min-width:900px){
     .section-3{
-        height: 50vh;
+        height: 30vh;
+        align-items: center;
     }
     .box{
         
