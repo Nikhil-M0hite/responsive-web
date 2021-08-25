@@ -87,9 +87,7 @@ input#email{
     
 
 }
-input#email placeholder{
-    
-}
+
 .btn-primary{
     padding: 6px 40px;
     margin: 5px;
@@ -137,7 +135,7 @@ input#email placeholder{
     flex-direction: column;
  }
  .section-3{
-     height: 145vh;
+     height: 142vh;
  }
  .box{
      flex-direction: column;
@@ -153,5 +151,7 @@ input#email placeholder{
 .p-primary{
     font-size: 1rem;
 }
-
+.footer{
+    height:10vh;
+}
 }
