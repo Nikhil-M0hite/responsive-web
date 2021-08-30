@@ -39,7 +39,7 @@ border-bottom: 3px solid red;
 .logo h1{
     font-size: 2rem;
     color: #fff;
-    
+    font-weight: 700;
     margin: 13px 40px;
 
 
@@ -58,15 +58,30 @@ border-bottom: 3px solid red;
    background-repeat: no-repeat;
    background-size: cover;
     height: 50vh;
-    opacity: .8;
     color: #fff;
+    box-shadow: inset 120px 100px 250px #000000,inset -120px -100px 250px #000000;
+
 }
+/* .section-1::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background:rgba(0,0,0, 0.6);
+    z-index: 1;
+    
+} */
 .h-primary{
     font-size: 3rem;
     padding: 6px;
+    color:#fff;
+    font-weight: 700;
+    z-index: 2;
+
 }
 .p-primary{
     font-size: 1.2rem;
+    z-index: 2;
 }
 .section-2{
     background-color: #000;
@@ -96,7 +111,9 @@ input#email{
     border: 1px solid #000;
 }
 .section-3{
-    height: 56vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 60vh;
     background-color: rgb(245, 240, 240);
    
 }
@@ -135,7 +152,7 @@ input#email{
     flex-direction: column;
  }
  .section-3{
-     height: 120vh;
+     height: 144vh;
  }
  .box{
      flex-direction: column;
@@ -145,15 +162,11 @@ input#email{
  .h-primary{
     font-size: 2rem;
     padding: 4px;
-    color: #ff0000;
-    font-weight: 400;
+   
 }
 .p-primary{
     font-size: 1rem;
 }
-.footer{
-    height:10vh;
-}
-}
 
 }
+
